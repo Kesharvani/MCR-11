@@ -1,0 +1,38 @@
+.movie_listing_container {
+  padding: 1rem;
+  position: relative;
+}
+.movieListing_center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.movie_top_bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem;
+  padding-top: 3rem;
+}
+.moviecard_container {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.movie_top_bar > button {
+  background-color: #4a4a4a;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+}
+.clear_btn {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  bottom: 30;
+  background-color: #4a4a4a;
+  color: white;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}

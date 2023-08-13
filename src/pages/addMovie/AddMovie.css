@@ -1,0 +1,28 @@
+.form_container {
+  display: flex;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.lable_input {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.lable_input > label {
+  flex: 1;
+}
+.lable_input > input {
+  flex: 2;
+}
+.btn_submit {
+  background-color: #4a4a4a;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}

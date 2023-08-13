@@ -1,0 +1,21 @@
+.header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 9rem;
+  align-items: center;
+  background-color: #4a4a4a;
+  color: white;
+  margin-bottom: 2rem;
+}
+.header > input {
+  flex-grow: 1;
+  padding: 0.7rem;
+}
+.header_right {
+  display: flex;
+  gap: 1rem;
+}
+Link {
+  color: white;
+}
