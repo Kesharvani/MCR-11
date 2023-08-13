@@ -54,9 +54,9 @@ export default function IndividualMoviePage() {
           <p>Cast{individualMovieItem?.cast}</p>
           <div className="individual_btn">
             {isInStarred ? (
-              <button onClick={removeStarredHandler()}>UnStar</button>
+              <button onClick={removeStarredHandler}>UnStar</button>
             ) : (
-              <button onClick={addStarredHandler()}>Star</button>
+              <button onClick={addStarredHandler}>Star</button>
             )}
             {isInWatchList ? (
               <button onClick={removeFromWatchList}>
